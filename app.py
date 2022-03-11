@@ -9,7 +9,7 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'bigbuda_herbert_zap'
 app.config['MYSQL_PASSWORD'] = '62032597Hz.#'
 app.config['MYSQL_DB'] = 'bigbuda_export_json'
-#mysql = MySQL(app)
+#mysql = MySQL(app) 
 
 
 
