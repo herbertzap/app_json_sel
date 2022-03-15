@@ -1,13 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <title>FlaskBlog</title>
+    <title>Manual Api</title>
 </head>
 
 <body>
-    <h1>Welcome to FlaskBlog</h1>
+    <div class="body" role="main">
+        <section id="installation">
+            <h1>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Instalación </font>
+                </font>
+                <a class="headerlink" href="#installation" title="Enlace permanente a este titular">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">¶</font>
+                    </font>
+                </a>
+            </h1>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Connection via http</font>
+                </font>
+            </p>
+            <div class="highlight-bash notranslate">
+                <div class="highlight">
+                    <pre><span></span>http://localhost:4000/
+      </pre>
+                </div>
+            </div>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Si desea utilizar algoritmos de firma de clave asimétrica (pública/privada), incluya los </font>
+                </font><code class="docutils literal notranslate"><span class="pre">asymmetric_crypto</span></code>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">requisitos adicionales.</font>
+                </font>
+            </p>
+            <div class="highlight-bash notranslate">
+                <div class="highlight">
+                    <pre><span></span>$ pip install flask-jwt-extended<span class="o">[</span>asymmetric_crypto<span class="o">]</span>
+      </pre>
+                </div>
+            </div>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Tenga en cuenta que si está utilizando ZSH (probablemente también otros shells), deberá escapar de los corchetes</font>
+                </font>
+            </p>
+            <div class="highlight-bash notranslate">
+                <div class="highlight">
+                    <pre><span></span>$ pip install flask-jwt-extended<span class="se">\[</span>asymmetric_crypto<span class="se">\]</span>
+      </pre>
+                </div>
+            </div>
+            <p>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Si prefiere instalar desde la fuente, puede clonar este repositorio y ejecutar</font>
+                </font>
+            </p>
+            <div class="highlight-bash notranslate">
+                <div class="highlight">
+                    <pre><span></span>$ python setup.py install
+      </pre>
+                </div>
+            </div>
+        </section>
+        <div class="clearer"></div>
+    </div>
 </body>
 
 </html>
